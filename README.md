@@ -28,7 +28,7 @@ follow the following build steps to compile the Integration kit:
 ## Set Up
 
 ### Pre Requisites:
-The following kit uses information stored in a config file. Before running the code for the first time open the config.json file
+The following kit uses information stored in a config file. Before running the code for the first time open the config.ini file
 and add the relevant details:
   1. ClientId: This is a unique Identifier that identifies the merchant. For more information please go [here](https://dev.cashfree.com/payouts/integrations/pre-requisites#credentials).
   2. ClientSecret: Corresponding secret key for the given ClientId that helps Cashfree indentify the merchant. For more information please go [here](https://dev.cashfree.com/payouts/integrations/pre-requisites#credentials).
