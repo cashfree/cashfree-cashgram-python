@@ -62,11 +62,7 @@ Your IP has to be whitelisted to hit Cashfree's server. For more information ple
 
 The following kit needs Cashgram details to create a cashgram. To know more information on how to create cashgrams please go [here](https://dev.cashfree.com/api-reference/payouts-api#create-cashgram-request).
 
-<<<<<<< HEAD
-The kit picks up the cashgram details from the config file cashgramDetails section.
-=======
 The kit picks up the cashgram details from the app.py file, params sent to the create_cashgram function .
->>>>>>> sdk
 Required Fields are:
   1. cashgramId: unique Id of the created cashgram.
   2. amount: amount to be transferred.
@@ -75,26 +71,15 @@ Required Fields are:
 
 ## Usage
 
-<<<<<<< HEAD
-Once the config file is setup you can run the executable, to run the entire flow. Authorise, create a cashgram 
-=======
 Once the app.py file is setup you can run the executable, to run the entire flow. Authorise, create a cashgram 
->>>>>>> sdk
 and check the status of the created cashgram.
 
 run the following command in the terminal to run the script:
 ```
-<<<<<<< HEAD
-  python index.py
-```
-
-You can change the necessary values in the config file as per your requirements and re run the script whenever needed.
-=======
   python app.py
 ```
 
 You can change the necessary values in the app.py file as per your requirements and re run the script whenever needed.
->>>>>>> sdk
 
 ## Doubts
 
