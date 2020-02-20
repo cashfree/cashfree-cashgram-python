@@ -1,3 +1,11 @@
+'''
+Below is an integration flow on how to use Cashfree's payouts SDK. The SDK can be found at: https://github.com/cashfree/cashfree-sdk-python
+Please go through the payout docs here: https://dev.cashfree.com/payouts
+The following script contains the following functionalities :
+    1. Cashgram.create_cashgram -> create a cashgram
+    2. Cashgram.get_cashgram_status -> get status of the created cashgram
+'''
+
 from cashfree_sdk.payouts import Payouts
 from cashfree_sdk.payouts.cashgram import Cashgram
 
